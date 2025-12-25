@@ -26,7 +26,7 @@ Ce formulaire intuitif permet aux utilisateurs de participer à un sondage avec 
 ## 🖼️ Aperçu du projet
 
 <p align="center">
-  <img src=".Asset/Output.png" alt="Aperçu du formulaire" width="600"/>
+  <img src="./Assets/Output.png" alt="Aperçu du formulaire" width="600"/>
 </p>
 
 ---
@@ -51,4 +51,5 @@ formulaire-de-sondage/
 
 ```bash
 git clone https://github.com/mana-rj11/formulaire-de-sondage-.git
+
 
