@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Documentation technique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="HTML_Introduction">
+            <header>
+                HTML Introduction
+            </header>
+            <p>HTML est le langage de balisage standard pour créer des pages Web.</p>
+            <h4>Qu'est-ce que le HTML</h4>
+            <ul>
+                <li>HTML signifie Hyper Text Markup Language</li>
+                <li>HTML est un langage de balisage standard pour créer des pages Web</li>
+                <li>HTML décrit la structure d'une page Web</li>
+                <li>HTML est constitué d'une série d'éléments</li>
+                <li>Les éléments HTML idiquent au navigateur comment afficher le contenu</li>
+                <li>Les éléments HTML etiquettent des éléments de contenu tels que "c'est un titre", "ceci est un paragraphe", "c'est un lien", etc.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Un_simple_document_HTML">
+            <header>
+                Un simple document HTML
+            </header>
+            <pre>
+                <code>
+                    &lt;DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;My First Heading&lt;/h1&gt;
+                        &lt;p&gt;My first Paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+            <h4>Exemple Explained</h4>
+            <ul>
+                <li>The <span class="code-snippet">&lt;DOCTYPE html&gt;</span> declaration defines thaht this document is an HTML5 document</li>
+                <li>The <span class="code-snippet">&lt;html&gt;</span> element is the root element of an HTML page</li>
+                <li>The <span class="code-snippet">&lt;head&gt;</span> element contains meta information about the HTML page </li>
+                <li>The <span class="code-snippet">&lt;title&gt;</span> element specifies a title for the HTML page (wich is shown in the browser's title bar or in the page's tab)</li>
+                <li>The <span class="code-snippet">&lt;body&gt;</span> element defines the document's bosy, and is a container for all the visible contents, such a geadings, paragraphs, images, hyperlinks, tables,, lists, etc.</li>
+                <li>The <span class="code-snippet">&lt;h1&gt;</span> element defines a large heading</li>
+                <li>The <span class="code-snippet">&lt;p&gt;</span> element defines a paragraph</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Qu'est-ce_qu'un_élément_HTML?">
+            <header>
+                Qu'est ce qu'un élément HTML?
+            </header>
+            <p>Un élément HTML est défini par une balise start, un contenu et une balise end:</p>
+            <p><span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>tagname<span class="code-snippet-symbol">&gt;</span></span> contenu va ici ... <span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>/tagname<span class="code-snippet-symbol">&gt;</span></span></p>
+            <p>Le HTML élément est tout, de la balise de début à la balise de fin:</p>
+            <p><span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>h1<span class="code-snippet-symbol">&gt;</span></span>Ma première Rubrique<span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>/h1<span class="code-snippet-symbol">&gt;</span></span></p>
+            <p><span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>p<span class="code-snippet-symbol">&gt;</span></span>Mon premier paragraphe.<span class="code-snippet"><span class="code-snippet-symbol">&lt;</span>/p<span class="code-snippet-symbol">&gt;</span></span></p>
+            <table>
+                <tr>
+                    <th>Start tag</th> <th>Element Content</th> <th>End tag</th>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td>Ma première Rubrique</td>
+                    <td>&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Mon premier paragraphe.</td>
+                    <td>&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>none</td>
+                    <td>none</td>
+                </tr>
+            </table>
+        </section>
+        <section class="main-section" id="HTML_Page_Structure">
+            <header>
+                HTML Page Structure
+            </header>
+            <p>Vous trouverez ci-dessous une visualisation d'une structure de page HTML:</p>
+            <img src="https://stuyhsdesign.wordpress.com/wp-content/uploads/2015/09/basic-structure.png?w=656" id="html-page-structure-img" alt="HTML Page Structure">
+            <p><strong>Note: </strong>Le contenu à l'intérieur de la section &lt;body&gt; sera affiché dans un navigateur. Le contenu dans l'élément &lt;title&gt; sera affiché dans la barre de titre du navigateur ou dans l'onglet de la page.</title></body></p>
+        </section>
+        <section class="main-section" id="HTML_Histoire">
+            <header>
+                HTML Histoire
+            </header>
+            <p>Depuis les premiers jours du World Wide Web, il y a eu de nombreuses versions de HTML:</p>
+            <ul>
+                <li>1989 : Tim Berners-Lee invented www</li>
+                <li>1991 : Tim Berners-Lee invented HTML</li>
+                <li>1993 : Dave Raggett drafted HTML+</li>
+                <li>1995 : HTML Working Group defined HTML 2.0</li>
+                <li>1997 : W3C Recommendation: HTML 3.2</li>
+                <li>1999 : W3C Recommendation: HTML 4.01</li>
+                <li>2000 : W3C Recommendation: XHTML 1.0</li>
+                <li>2008 : WHATWG HTML5 First Public Draft</li>
+                <li>2012 : WHATWG HTML5 Living Standard</li>
+                <li>2014 : W3C Recommendation: HTML 5</li>
+                <li>2016 : W3C Candidate Recommendation: HTML 5.1</li>
+                <li>2017 : W3C Recommendation: HTML5.1 2nd Edition</li>
+                <li>2017 : W3C Recommendation: HTML 5</li>
+            </ul>
+        </section>
+        <section class="main-section" id="HTML_Exemples_de_Base">
+            <header>
+                HTML Exemples de Base 
+            </header>
+            <p>Dans ce chapitre, nous allons montrer quelques exemples HTML de base.</p>
+            <p>Ne vous inquiéez pas si nous utilisons des balises que vous n'avez pas encore apprises.</p>
+            <h4>HTML Documents</h4>
+            <p>Tous les documents HTML doivent commencer par une déclaration de ype de document: <span class="code-snippet">&lt;DOCTYPE html&gt;</span>.</p>
+            <p>Le document HTML lui-même commence par <span class="code-snippet">&lt;html&gt;</span> et se termine par <span class="code-snippet">&lt;/html&gt;</span>.</p>
+            <p>La partie visible du document HTML est entre <span class="code-snippet">&lt;body&gt;</span> et <span class="code-snippet"></span>/body&gt;</span>.</p>
+            <pre>
+                <code>
+                    &lt;DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Page Title&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;My First Heading&lt;/h1&gt;
+                        &lt;p&gt;My first Paragraph&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="main-section" id="Le_!DOCTYPE_Déclaration">
+            <header>
+                Le !DOCTYPE Déclaration
+            </header>
+            <p>Le <span class="code-snippet">&lt;!DOCTYPE&gt;</span> declaration représente le type de document et aide les navigateurs à afficher correctement les pages Web.</p>
+            <p>Il ne doit apparaître qu'une seule fois, en haut de la page (avant les balises HTML).</p>
+            <p>Le <span class="code-snippet">&lt;!DOCTYPE&gt;</span> la déclaration n'est pas sensible à la casse.</p>
+            <p>Le <span class="code-snippet">&lt;!DOCTYPE&gt;</span> déclaration pour HTML5 est:</p>
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="main-section" id="HTML_Rubriques">
+            <header>
+                HTML Rubriques
+            </header>
+            <p>Les en-têtes HTML sont définis avec <span class="code-snippet">&lt;h1&gt;</span> à <span class="code-snippet">&lt;h6&gt;</span> tags.</p> 
+            <p><span class="code-snippet">&lt;h1&gt;</span> définit le titre HTML le plus important. <span class="code-snippet">&lt;h6&gt;</span> définit le moins important titre:</p>
+            <pre>
+                <code>
+                    &lt;h1&gt;Titre 1&lt;/h1&gt;
+                    &lt;h2&gt;Titre 2&lt;/h2&gt;
+                    &lt;h3&gt;Titre 3&lt;/h3&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="main-section" id="HTML_Paragraphes">
+            <header>
+                HTML Paragraphes
+            </header>
+            <p>Les paragraphes HTML sont définis avec <span class="code-snippet">&lt;p&gt;</span> tag: tag:</p>
+            <pre>
+                <code>
+                    &lt;p&gt;Ce textte est un paragraphe.&lt;/p&gt;
+                    &lt;p&gt;Ce textte est un autre paragraphe.&lt;/p&gt;
+                </code>
+            </pre>
+        </section>
+        <section class="main-section" id="HTML_Liens">
+            <header>
+                HTML Liens
+            </header>
+            <p>Les liens HTML sont définis avec <span class="code-snippet">&lt;a&gt;</span> tag:</p>
+            <pre>
+                <code>
+                    &lt;a href="https://WWW.example.com"&gt;Exemple de lien&lt;/
+                </code>
+            </pre>
+            <p>La destination du lien spécifiée dans le <span class="code-snippet">href</span> attribut.</p>
+            <p>Les attributs sont utilisés pour fournnir des informations supplémentaires sur les éléments HTML.</p>
+            <p>Vous en apprendrez plus sur les attributs dans un chapitre ultérieur.</p>
+        </section>
+        <section class="main-section" id="HTML_Images"></section>
+            <header>
+                HTML Images
+            </header>
+            <p>Les images HTML sont définies avec <span class="code-snippet">&lt;img&gt;</span> étiquette.</p>
+            <p>Le fichier source (<span class="code-snippet">src</span>), texte alternatif (<span class="code-snippet">alt</span>), <span class="code-snippet">width</span>, et <span class="code-snippet">height</span> sont fournis comme attributs:</p>
+            <pre>
+                <code>
+                    &lt;img src="image.jpg" alt="Image de teste" width="100" height="200">
+                </code>
+            </pre>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>
+                Reference
+            </header>
+            <p>Le Contenu de ce site viens du site <a href="https://www.w3schools.com/html/html_intro.asp">W3Schools</a></p>
+        </section>
+    </main>
+    <nav id="navbar">
+        <header>
+            HTML Tutorial
+        </header>
+        <a href="#HTML_Introduction" class="nav-link">HTML Introduction</a>
+        <a href="#Un_simple_document_HTML" class="nav-link">Un simple document HTML</a>
+        <a href="#Qu'est-ce_qu'un_élément_HTML?" class="nav-link">Qu'est-ce qu'un élément HTML?</a>
+        <a href="#HTML_Page_Structure" class="nav-link">HTML Page Structure</a>
+        <a href="#HTML_Histoire" class="nav-link">HTML Histoire</a>
+        <a href="#HTML_Exemples_de_Base" class="nav-link">HTML Exemples de Base</a>
+        <a href="#Le_!DOCTYPE_Déclaration" class="nav-link">Le !DOCTYPE Déclaration</a>
+        <a href="#HTML_Rubriques" class="nav-link">HTML Rubriques</a>
+        <a href="#HTML_Paragraphes" class="nav-link">HTML Paragraphes</a>
+        <a href="#HTML_Liens" class="nav-link">HTML Liens</a>
+        <a href="#HTML_Images" class="nav-link">HTML Images</a>
+        <a href="#References" class="nav-link">References</a>
+    </nav>
+</body>
+</html>
