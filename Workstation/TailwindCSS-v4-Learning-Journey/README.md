@@ -6,4 +6,4 @@
 - Comprendre les fondamentaux de TailWind CSS (layout, responsive, typographier, couleurs, etc.).
 - Lire en parallèle la documentation officielle pour approfondir chaque notion.
 - Documenter mes projets, partager du code propre et des captures d'écrans.
-- Faire des mini-projets avec Tailwind CSS.
+- Faire des mini-projets avec Tailwind CSS. 
